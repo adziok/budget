@@ -1,6 +1,15 @@
 {
   "name": "root",
   "private": true,
+  "workspaces": {
+    "packages": [
+      "apps/*"
+    ],
+    "nohoist": [
+      "**/typeorm/**",
+      "**/typeorm"
+    ]
+  },
   "devDependencies": {
     "lerna": "^4.0.0"
   }
