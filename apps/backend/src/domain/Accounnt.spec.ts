@@ -9,6 +9,6 @@ describe('Account', () => {
             new TransactionOccurred(50, 'income'),
         ].forEach((event) => account.apply(event));
 
-        expect(account['props'].money).toEqual(250);
+        expect(account.moneyAmount).toEqual(250);
     });
 });

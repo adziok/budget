@@ -23,6 +23,10 @@ export class Account {
         this.props = {} as any;
     }
 
+    get moneyAmount() {
+        return this.props.money;
+    }
+
     apply(event: IDomainEvent) {
         if (event instanceof AccountCreated) {
             this.props.name = event.name;
