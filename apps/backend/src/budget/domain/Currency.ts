@@ -1,3 +1,3 @@
 export class Currency {
-    constructor(public readonly amount: number) {}
+    constructor(public readonly name: string) {}
 }

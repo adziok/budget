@@ -8,6 +8,9 @@
 - Account
 - Plan*
 
+### TODO
+- User AWS Cognito
+
 ### Stories
 - I want to register and be able to sync my expenses between devices
 - I want to create account and set initial amount of money

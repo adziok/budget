@@ -1,6 +1,6 @@
-import { DomainEntity } from '../../base/DomainEntity';
-import { UniqueId } from '../../base/UniqueId';
-import { Money } from './Money';
+import { DomainEntity } from '../../../base/DomainEntity';
+import { UniqueId } from '../../../base/UniqueId';
+import { Money } from '../Money';
 
 interface IAccountProps {
     money: Money;
